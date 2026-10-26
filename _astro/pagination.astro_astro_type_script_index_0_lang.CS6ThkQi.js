@@ -1,0 +1,1 @@
+import{E as t}from"./events.CuUm38Zg.js";import{E as e}from"./index.DyjwVCgU.js";import{n as a}from"./router.BER9ihDe.js";new t({events:{"astro:page-load":async()=>{const t=e.select([{type:"id",val:"pageinationInput"}]),n=e.exists(await t.next());e.attachEvent(n,"keyup",(e=>{const t=e;if(t?.key)return a(`?page=${n.value}`)}))}},logging:!1}).bind();
