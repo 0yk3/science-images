@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated from the matching .svgz source by xml-build.xsl. Do not edit by hand. --><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position: fixed; top: 0; left: 0;">
+  <style>.astro-route-announcer{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}#mobilenav,#mobilenavwrapper{transition-duration:.6s;transform:translate(100%)}.roboto{font-family:var(--font-family),Roboto,sans-serif;font-weight:200;font-style:normal}::-webkit-scrollbar{width:.5rem;height:.5rem}::-webkit-scrollbar-track{background:var(--navbar-color)}::-webkit-scrollbar-thumb{background:var(--navbar-text-color)}::-webkit-scrollbar-thumb:hover{background:var(--navbar-link-color)}::-moz-scrollbar{width:.5rem;height:.5rem}::-moz-scrollbar-track{background:var(--navbar-color)}::-moz-scrollbar-thumb{background:var(--navbar-text-color)}::-moz-scrollbar-thumb:hover{background:var(--navbar-link-color)}::-ms-scrollbar{width:.5rem;height:.5rem}::-ms-scrollbar-track{background:var(--navbar-color)}::-ms-scrollbar-thumb{background:var(--navbar-text-color)}::-ms-scrollbar-thumb:hover{background:var(--navbar-link-color)}::-o-scrollbar{width:.5rem;height:.5rem}::-o-scrollbar-track{background:var(--navbar-color)}::-o-scrollbar-thumb{background:var(--navbar-text-color)}::-o-scrollbar-thumb:hover{background:var(--navbar-link-color)}@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+</style>
+  <foreignObject x="0" y="0" width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml" class="h-full bg-primary">
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="../../../ob-fonts.css" id="obfuscated-font-stylesheet" data-astro-transition-persist="astro-qje6ewha-2"/>
+      <title>Settings</title>
+      <meta charset="UTF-8"/>
+      <link rel="canonical" href="http://localhost:4321/jp/settings/tab/"/>
+      <meta name="robots" content="index, follow"/>
+      <meta property="og:title" content=""/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:image" content=""/>
+      <meta property="og:url" content="http://localhost:4321/jp/settings/tab/"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image:alt" content="false logo"/>
+      <link rel="icon" type="image/svg+xml" href="../../../favicon.svg" id="favicon"/>
+      <link/>
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" as="style" crossorigin="anonymous"/>
+      <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="generator" content="Astro v5.17.3"/>
+      <link rel="stylesheet" href="../../../nebula.css" id="stylesheet" data-astro-transition-persist="astro-2ufxhwun-3"/>
+      <meta name="astro-view-transitions-enabled" content="true"/>
+      <meta name="astro-view-transitions-fallback" content="animate"/>
+      <link rel="stylesheet" href="../../../_astro/index.CGXnpZuh.css"/>
+      <div id="navbar" class="flex h-16 flex-row items-center justify-end border-b-2 border-border-color bg-navbar-color px-4 z-30 relative"> <div class="w-1/8">  <div class="relative flex-row hidden lg:flex"> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../../index.xml">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:house-bold">   <symbol id="ai:ph:house-bold" viewBox="0 0 256 256"><path fill="currentColor" d="m222.14 105.85l-80-80a20 20 0 0 0-28.28 0l-80 80A19.86 19.86 0 0 0 28 120v96a12 12 0 0 0 12 12h64a12 12 0 0 0 12-12v-52h24v52a12 12 0 0 0 12 12h64a12 12 0 0 0 12-12v-96a19.86 19.86 0 0 0-5.86-14.15M204 204h-40v-52a12 12 0 0 0-12-12h-48a12 12 0 0 0-12 12v52H52v-82.35l76-76l76 76Z"/></symbol><use href="#ai:ph:house-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ホーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../../games/index.xml">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:cube">   <symbol id="ai:ph:cube" viewBox="0 0 256 256"><path fill="currentColor" d="m223.68 66.15l-88-48.15a15.88 15.88 0 0 0-15.36 0l-88 48.17a16 16 0 0 0-8.32 14v95.64a16 16 0 0 0 8.32 14l88 48.17a15.88 15.88 0 0 0 15.36 0l88-48.17a16 16 0 0 0 8.32-14V80.18a16 16 0 0 0-8.32-14.03M128 32l80.34 44L128 120L47.66 76ZM40 90l80 43.78v85.79l-80-43.75Zm96 129.57v-85.75L216 90v85.78Z"/></symbol><use href="#ai:ph:cube"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ゲーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../appearance/index.xml">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:wrench-fill">   <symbol id="ai:ph:wrench-fill" viewBox="0 0 256 256"><path fill="currentColor" d="M232 96a72 72 0 0 1-100.94 66L79 222.22c-.12.14-.26.29-.39.42a32 32 0 0 1-45.26-45.26c.14-.13.28-.27.43-.39L94 124.94a72.07 72.07 0 0 1 83.54-98.78a8 8 0 0 1 3.93 13.19L144 80l5.66 26.35L176 112l40.65-37.52a8 8 0 0 1 13.19 3.93A72.6 72.6 0 0 1 232 96"/></symbol><use href="#ai:ph:wrench-fill"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> 設定 </span> </a>  <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="https://discord.gg/g6aHY2Ufhx">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:link-bold">   <symbol id="ai:ph:link-bold" viewBox="0 0 256 256"><path fill="currentColor" d="M117.18 188.74a12 12 0 0 1 0 17l-5.12 5.12A58.26 58.26 0 0 1 70.6 228a58.62 58.62 0 0 1-41.46-100.08l34.75-34.75a58.64 58.64 0 0 1 98.56 28.11a12 12 0 1 1-23.37 5.44a34.65 34.65 0 0 0-58.22-16.58l-34.75 34.75A34.62 34.62 0 0 0 70.57 204a34.4 34.4 0 0 0 24.49-10.14l5.11-5.12a12 12 0 0 1 17.01 0M226.83 45.17a58.65 58.65 0 0 0-82.93 0l-5.11 5.11a12 12 0 0 0 17 17l5.12-5.12a34.63 34.63 0 1 1 49 49l-34.81 34.7A34.4 34.4 0 0 1 150.61 156a34.63 34.63 0 0 1-33.69-26.72a12 12 0 0 0-23.38 5.44A58.64 58.64 0 0 0 150.56 180h.05a58.28 58.28 0 0 0 41.47-17.17l34.75-34.75a58.62 58.62 0 0 0 0-82.91"/></symbol><use href="#ai:ph:link-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> リンク一覧 </span> </a> </div>  <div class="flex lg:hidden cursor-pointer" id="mobileNavTrigger"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-9 w-9 text-text-color" id="hamburger_menu" data-icon="ph:text-align-justify-bold">   <symbol id="ai:ph:text-align-justify-bold" viewBox="0 0 256 256"><path fill="currentColor" d="M28 64a12 12 0 0 1 12-12h176a12 12 0 0 1 0 24H40a12 12 0 0 1-12-12m188 28H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24m0 40H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24m0 40H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24"/></symbol><use href="#ai:ph:text-align-justify-bold"/>  </svg> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-9 w-9 text-text-color hidden" id="right_caret" data-icon="ph:caret-right-bold">   <symbol id="ai:ph:caret-right-bold" viewBox="0 0 256 256"><path fill="currentColor" d="m184.49 136.49l-80 80a12 12 0 0 1-17-17L159 128L87.51 56.49a12 12 0 1 1 17-17l80 80a12 12 0 0 1-.02 17"/></symbol><use href="#ai:ph:caret-right-bold"/>  </svg> </div> </div> </div> <div class="h-full z-10 w-full fixed">  <div class="flex flex-row font-roboto"> <div class="text-text-color mt-16 fixed inset-0 h-[calc(100%-4rem)] z-0 bg-primary flex-col flex md:flex-row"> <div class="items-center md:p-3 sm:p-3 flex flex-row border-border-color md:gap-10 xl:gap-10 max-sm:gap-5 sm:gap-5 md:border-r-2 lg:w-2/12 md:w-3/12 md:flex-col md:bg-navbar-color md:gap-0 overflow-x-auto md:overflow-x-hidden overflow-y-hidden max-md:ml-1 max-md:mr-1 max-md:max-h-24 max-md:min-h-24 max-md:justify-left max-md:scroll-ml-3 max-md:scroll-mr-3 max-md:snap-x max-md:snap-mandatory"> <a href="../appearance/index.xml" class="snap-center snap-always group flex flex-col items-center md:p-0 max-sm:p-3 sm:p-3 bg-navbar-color w-full rounded-3xl md:flex-row md:bg-none md:rounded-none"> <div class="xl:p-2 max-sm:p-2 sm:p-2 md:p-0">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:palette">   <symbol id="ai:ph:palette" viewBox="0 0 256 256"><path fill="currentColor" d="M200.77 53.89A103.27 103.27 0 0 0 128 24h-1.07A104 104 0 0 0 24 128c0 43 26.58 79.06 69.36 94.17A32 32 0 0 0 136 192a16 16 0 0 1 16-16h46.21a31.81 31.81 0 0 0 31.2-24.88a104.4 104.4 0 0 0 2.59-24a103.28 103.28 0 0 0-31.23-73.23m13 93.71a15.89 15.89 0 0 1-15.56 12.4H152a32 32 0 0 0-32 32a16 16 0 0 1-21.31 15.07C62.49 194.3 40 164 40 128a88 88 0 0 1 87.09-88h.9a88.35 88.35 0 0 1 88 87.25a89 89 0 0 1-2.18 20.35ZM140 76a12 12 0 1 1-12-12a12 12 0 0 1 12 12m-44 24a12 12 0 1 1-12-12a12 12 0 0 1 12 12m0 56a12 12 0 1 1-12-12a12 12 0 0 1 12 12m88-56a12 12 0 1 1-12-12a12 12 0 0 1 12 12"/></symbol><use href="#ai:ph:palette"/>  </svg>  </div> <div class="max-md:min-w-24 font-roboto text-center font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color md:text-xl text-nowrap"> Appearance </div> </a> <a href="../pr/index.xml" class="snap-center snap-always group flex flex-col items-center md:p-0 max-sm:p-3 sm:p-3 bg-navbar-color w-full rounded-3xl md:flex-row md:bg-none md:rounded-none"> <div class="xl:p-2 max-sm:p-2 sm:p-2 md:p-0">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:globe-hemisphere-east-fill">   <symbol id="ai:ph:globe-hemisphere-east-fill" viewBox="0 0 256 256"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24M62.29 186.47l2.52-1.65A16 16 0 0 0 72 171.53l.21-36.23L93.17 104a4 4 0 0 0 .32.22l19.67 12.87a15.94 15.94 0 0 0 11.35 2.77l31.49-4.27a16 16 0 0 0 10-5.41l22.17-25.76A16 16 0 0 0 192 74v-6.33A87.87 87.87 0 0 1 211.77 155l-16.14-14.76a16 16 0 0 0-16.93-3l-30.46 12.65a16.08 16.08 0 0 0-9.68 12.45l-2.39 16.19a16 16 0 0 0 11.77 17.81L169.4 202l2.36 2.37a87.88 87.88 0 0 1-109.47-17.9"/></symbol><use href="#ai:ph:globe-hemisphere-east-fill"/>  </svg>  </div> <div class="max-md:min-w-24 font-roboto text-center font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color md:text-xl text-nowrap"> Proxy </div> </a> <a href="./index.xml" class="snap-center snap-always group flex flex-col items-center md:p-0 max-sm:p-3 sm:p-3 bg-navbar-color w-full rounded-3xl md:flex-row md:bg-none md:rounded-none"> <div class="xl:p-2 max-sm:p-2 sm:p-2 md:p-0">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:laptop-fill">   <symbol id="ai:ph:laptop-fill" viewBox="0 0 256 256"><path fill="currentColor" d="M232 168h-8V72a24 24 0 0 0-24-24H56a24 24 0 0 0-24 24v96h-8a8 8 0 0 0-8 8v16a24 24 0 0 0 24 24h176a24 24 0 0 0 24-24v-16a8 8 0 0 0-8-8M112 72h32a8 8 0 0 1 0 16h-32a8 8 0 0 1 0-16m112 120a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8v-8h192Z"/></symbol><use href="#ai:ph:laptop-fill"/>  </svg>  </div> <div class="max-md:min-w-24 font-roboto text-center font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color md:text-xl text-nowrap"> Tab </div> </a> <a href="../misc/index.xml" class="snap-center snap-always group flex flex-col items-center md:p-0 max-sm:p-3 sm:p-3 bg-navbar-color w-full rounded-3xl md:flex-row md:bg-none md:rounded-none"> <div class="xl:p-2 max-sm:p-2 sm:p-2 md:p-0">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transistion duration-500 group-hover:text-text-hover-color md:h-6 md:w=6" data-icon="ph:gear">   <symbol id="ai:ph:gear" viewBox="0 0 256 256"><path fill="currentColor" d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48m0 80a32 32 0 1 1 32-32a32 32 0 0 1-32 32m88-29.84q.06-2.16 0-4.32l14.92-18.64a8 8 0 0 0 1.48-7.06a107.2 107.2 0 0 0-10.88-26.25a8 8 0 0 0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186 40.54a8 8 0 0 0-3.94-6a107.7 107.7 0 0 0-26.25-10.87a8 8 0 0 0-7.06 1.49L130.16 40h-4.32L107.2 25.11a8 8 0 0 0-7.06-1.48a107.6 107.6 0 0 0-26.25 10.88a8 8 0 0 0-3.93 6l-2.64 23.76q-1.56 1.49-3 3L40.54 70a8 8 0 0 0-6 3.94a107.7 107.7 0 0 0-10.87 26.25a8 8 0 0 0 1.49 7.06L40 125.84v4.32L25.11 148.8a8 8 0 0 0-1.48 7.06a107.2 107.2 0 0 0 10.88 26.25a8 8 0 0 0 6 3.93l23.72 2.64q1.49 1.56 3 3L70 215.46a8 8 0 0 0 3.94 6a107.7 107.7 0 0 0 26.25 10.87a8 8 0 0 0 7.06-1.49L125.84 216q2.16.06 4.32 0l18.64 14.92a8 8 0 0 0 7.06 1.48a107.2 107.2 0 0 0 26.25-10.88a8 8 0 0 0 3.93-6l2.64-23.72q1.56-1.48 3-3l23.78-2.8a8 8 0 0 0 6-3.94a107.7 107.7 0 0 0 10.87-26.25a8 8 0 0 0-1.49-7.06Zm-16.1-6.5a74 74 0 0 1 0 8.68a8 8 0 0 0 1.74 5.48l14.19 17.73a91.6 91.6 0 0 1-6.23 15l-22.6 2.56a8 8 0 0 0-5.1 2.64a74 74 0 0 1-6.14 6.14a8 8 0 0 0-2.64 5.1l-2.51 22.58a91.3 91.3 0 0 1-15 6.23l-17.74-14.19a8 8 0 0 0-5-1.75h-.48a74 74 0 0 1-8.68 0a8 8 0 0 0-5.48 1.74l-17.78 14.2a91.6 91.6 0 0 1-15-6.23L82.89 187a8 8 0 0 0-2.64-5.1a74 74 0 0 1-6.14-6.14a8 8 0 0 0-5.1-2.64l-22.58-2.52a91.3 91.3 0 0 1-6.23-15l14.19-17.74a8 8 0 0 0 1.74-5.48a74 74 0 0 1 0-8.68a8 8 0 0 0-1.74-5.48L40.2 100.45a91.6 91.6 0 0 1 6.23-15L69 82.89a8 8 0 0 0 5.1-2.64a74 74 0 0 1 6.14-6.14A8 8 0 0 0 82.89 69l2.51-22.57a91.3 91.3 0 0 1 15-6.23l17.74 14.19a8 8 0 0 0 5.48 1.74a74 74 0 0 1 8.68 0a8 8 0 0 0 5.48-1.74l17.77-14.19a91.6 91.6 0 0 1 15 6.23L173.11 69a8 8 0 0 0 2.64 5.1a74 74 0 0 1 6.14 6.14a8 8 0 0 0 5.1 2.64l22.58 2.51a91.3 91.3 0 0 1 6.23 15l-14.19 17.74a8 8 0 0 0-1.74 5.53Z"/></symbol><use href="#ai:ph:gear"/>  </svg>  </div> <div class="max-md:min-w-24 font-roboto text-center font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color md:text-xl text-nowrap"> Misc </div> </a> <a href="../credits/index.xml" class="snap-center snap-always group flex flex-col items-center md:p-0 max-sm:p-3 sm:p-3 bg-navbar-color w-full rounded-3xl md:flex-row md:bg-none md:rounded-none"> <div class="xl:p-2 max-sm:p-2 sm:p-2 md:p-0">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transistion duration-500 group-hover:text-text-hover-color md:h-6 md:w=6" data-icon="ph:user">   <symbol id="ai:ph:user" viewBox="0 0 256 256"><path fill="currentColor" d="M230.92 212c-15.23-26.33-38.7-45.21-66.09-54.16a72 72 0 1 0-73.66 0c-27.39 8.94-50.86 27.82-66.09 54.16a8 8 0 1 0 13.85 8c18.84-32.56 52.14-52 89.07-52s70.23 19.44 89.07 52a8 8 0 1 0 13.85-8M72 96a56 56 0 1 1 56 56a56.06 56.06 0 0 1-56-56"/></symbol><use href="#ai:ph:user"/>  </svg>  </div> <div class="max-md:min-w-24 font-roboto text-center font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color md:text-xl text-nowrap"> Credits </div> </a> </div> <div class="p-8 md:pb-2 w-full flex-grow overflow-y-auto"> <p class="text-5xl font-semibold mb-5">Settings</p> <p class="text-2xl">Tab</p>  <div class="mt-5 font-roboto"> <hr/> <div class="mt-3"> <div class="text-2xl font-semibold">Tab</div> <div class="text-lg mb-5">Customize and cloak your tab.</div>  <div class="w-full h-full flex flex-col items-center justify-center md:flex-row md:items-start md:justify-start gap-4"> <div class="h-64 w-64 rounded-3xl bg-navbar-color flex flex-col items-center p-4"> <h1 class="text-3xl font-bold mb-2"> Cloaking </h1> <p class="text-md w-full text-ellipsis text-center"> Choose how your tab looks </p> <div class="w-full h-full flex-grow flex justify-center items-center flex-col gap-4"> <!-- We only want to render an input if it's enabled -->  <!-- Same with dropdown selections --> <select id="cloakselect" class="text-md w-full h-10 p-2 bg-input border border-input-border-color rounded-md text-input-text" name="cloakselect"> <option id="reset" value="reset">Default</option><option id="google" value="google">Google</option><option id="wikipedia" value="wikipedia">Wikipedia</option><option id="canvas" value="canvas">Canvas</option><option id="classroom" value="classroom">Google Classroom</option><option id="powerschool" value="powerschool">Powerschool</option> </select>  <button id="cloak" class="w-36 h-10 rounded-md border border-input-border-color text-input-text bg-input hover:border-input hover:bg-input-border-color hover:text-input hover:font-bold active:bg-input active:text-input-text transition-all duration-200"> Cloak! </button> </div> </div> <div class="h-64 w-64 rounded-3xl bg-navbar-color flex flex-col items-center p-4"> <h1 class="text-3xl font-bold mb-2"> A:B &amp; Blob </h1> <p class="text-md w-full text-ellipsis text-center"> Choose to open your tab in about:blank or blob </p> <div class="w-full h-full flex-grow flex justify-center items-center flex-col gap-4"> <!-- We only want to render an input if it's enabled -->  <!-- Same with dropdown selections --> <select id="aboutblank" class="text-md w-full h-10 p-2 bg-input border border-input-border-color rounded-md text-input-text" name="aboutblank"> <option id="a:b" value="a:b">About:Blank</option><option id="blob" value="blob">Blob</option> </select>  <button id="aboutblankbutton" class="w-36 h-10 rounded-md border border-input-border-color text-input-text bg-input hover:border-input hover:bg-input-border-color hover:text-input hover:font-bold active:bg-input active:text-input-text transition-all duration-200"> Go! </button> </div> </div> </div>  </div> </div>  </div> </div> </div>  </div> <div id="mobilenavwrapper" class="w-full fixed inset-0 h-[calc(100%-4rem)] z-20"> <div class="h-full mt-16 flex w-full flex-col justify-evenly bg-navbar-color m-auto" id="mobilenav"> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../../index.xml">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:house-bold">   <use href="#ai:ph:house-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ホーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../../games/index.xml">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:cube">   <use href="#ai:ph:cube"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ゲーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../appearance/index.xml">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:wrench-fill">   <use href="#ai:ph:wrench-fill"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> 設定 </span> </a>  <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:link-bold">   <use href="#ai:ph:link-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> リンク一覧 </span> </a> </div>   </div> <video autoplay="" muted="" loop="" id="nebulaVideo" class="absolute z-0 h-[calc(100%-4rem)] w-full object-cover" data-astro-transition-persist="astro-jff22cma-4"> <source type="video/mp4" id="videosource" data-astro-transition-persist="astro-xx36xqzs-5"/> </video> <img src="" class="absolute z-0 h-[calc(100%-4rem)] w-full object-cover hidden" id="nebulaImage" data-astro-transition-persist="astro-wukm6pk7-6"/>    
+    </body>
+  </foreignObject>
+  <script>
+(function() {
+  var ns = "http://www.w3.org/1999/xhtml";
+  var body = document.querySelector("body");
+  var head = document.createElementNS(ns, "head");
+  body.prepend(head);
+  Object.defineProperty(document, "head", { get: function() { return head; }, configurable: true });
+  Object.defineProperty(document, "body", { get: function() { return body; }, configurable: true });
+  document.createElement = function(tag, opts) {
+    var node = document.createElementNS(ns, tag, opts);
+    Object.defineProperty(node, "tagName", { get: function() { return node.localName.toUpperCase(); }, configurable: true });
+    return node;
+  };
+  // HTML vendors mount overlays on documentElement, which is SVG here.
+  var root = document.documentElement;
+  if (root &amp;&amp; root.namespaceURI === "http://www.w3.org/2000/svg") {
+    var append = root.appendChild.bind(root);
+    var routed = new WeakSet();
+    var virtualTail = false;
+    root.appendChild = function(node) {
+      virtualTail = node.namespaceURI === ns;
+      if (!virtualTail) return append(node);
+      routed.add(node);
+      return body.appendChild(node);
+    };
+    var proto = root, last;
+    while (proto &amp;&amp; !last) { last = Object.getOwnPropertyDescriptor(proto, "lastElementChild"); proto = Object.getPrototypeOf(proto); }
+    if (last &amp;&amp; last.get) Object.defineProperty(root, "lastElementChild", { configurable: true, get: function() {
+      var tail = body.lastElementChild;
+      return virtualTail &amp;&amp; tail &amp;&amp; routed.has(tail) ? tail : last.get.call(root);
+    } });
+  }
+  // Parse writes as HTML (XML innerHTML rejects HTML entities/void tags).
+  document.write = function() {
+    var parsed = new DOMParser().parseFromString(Array.prototype.join.call(arguments, ""), "text/html");
+    function mount(source, target) {
+      Array.from(source.childNodes).forEach(function(node) {
+        var copy = document.importNode(node, true);
+        // Imported parser scripts are inert; recreate them in this realm.
+        var scripts = copy.nodeType === 1 ? (copy.localName === "script" ? [copy] : Array.from(copy.querySelectorAll("script"))) : [];
+        scripts.forEach(function(old) {
+          var active = document.createElement("script"); active.async = false;
+          Array.from(old.attributes).forEach(function(attr) { active.setAttribute(attr.name, attr.value); });
+          active.textContent = old.textContent;
+          if (old === copy) copy = active; else old.replaceWith(active);
+        });
+        target.appendChild(copy);
+      });
+    }
+    mount(parsed.head, head); mount(parsed.body, body);
+  };
+  document.writeln = function() { document.write(Array.prototype.join.call(arguments, "") + "\n"); };
+})();;
+
+self.__ddxBase=new URL("../../../",location.href).href;
+(function() {
+  var base = new URL(self.__ddxBase);
+  var entry = "index.xml";
+  function svgTarget(target) {
+    var url = new URL(target, location.href);
+    if (url.origin !== base.origin) return null;
+    var path = url.pathname.indexOf(base.pathname) === 0 ? url.pathname.slice(base.pathname.length) : url.pathname.slice(1);
+    path = path.replace(/\/index\.(?:html|svg|xml)$/, '').replace(/\/$/, '');
+    if (path &amp;&amp; !/^(?:en_US|jp)(?:\/[^.]*)?$/.test(path)) return null;
+    var result = new URL((path ? path + '/' : '') + entry, base);
+    result.search = url.search; result.hash = url.hash;
+    return result;
+  }
+  document.addEventListener('astro:before-preparation', function(event) {
+    if (!event.to || event.formData) return;
+    var target = svgTarget(event.to.href);
+    if (!target) return;
+    // Astro's cancellation fallback uses its original URL object, not a
+    // replacement event.to. Mutate in place before requesting a full load.
+    event.to.href = target.href;
+    event.preventDefault();
+  });
+  document.addEventListener('click', function(event) {
+    var anchor = event.target.closest &amp;&amp; event.target.closest('a[href]');
+    if (!anchor || anchor.hasAttribute('download')) return;
+    var href = anchor.getAttribute('href');
+    if (!href || href.charAt(0) === '#') return;
+    var target = svgTarget(href);
+    if (target) anchor.setAttribute('href', target.href);
+  }, true);
+})();;
+
+window.FONT_OBFUSCATION_CONFIG = {
+        enabled: true,
+        defaultFont: "roboto",
+        excludeInputs: false,
+        obfuscateTitle: false,
+        obfuscatePlaceholders: false,
+      };;
+
+window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5CFVV589W6');;
+
+(function() {
+  var ns = "http://www.w3.org/1999/xhtml";
+  var d = document;
+  var b = d.querySelector("body");
+
+  function loadModules() {
+    var mods = [{"src":"../../../_astro/Loader.astro_astro_type_script_index_0_lang.DSGJrlg_.js","co":false},{"src":"../../../_astro/ClientRouter.astro_astro_type_script_index_0_lang.V7p3ytpn.js","co":false},{"src":"../../../_astro/MobileNavigation.astro_astro_type_script_index_0_lang.VqBd4qe4.js","co":false},{"src":"../../../_astro/tab.astro_astro_type_script_index_0_lang.Dsy8c9jz.js","co":false}];
+    var remaining = mods.length;
+    mods.forEach(function(m) {
+      var s = d.createElementNS(ns, "script");
+      s.setAttribute("type", "module");
+      s.setAttribute("src", m.src);
+      if (m.co) s.setAttribute("crossorigin", "");
+      s.onload = s.onerror = function() { s.onload = s.onerror = null; if (--remaining === 0) d.dispatchEvent(new Event("DOMContentLoaded")); };
+      b.appendChild(s);
+    });
+  }
+
+  // Load non-module deps first, then modules after all finish
+  var srcs = ["https://www.googletagmanager.com/gtag/js?id=G-5CFVV589W6","../../../ob-fonts.js"];
+  var pending = srcs.length;
+  function done() { if (--pending === 0) loadModules(); }
+  srcs.forEach(function(u) {
+    var s = d.createElementNS(ns, "script");
+    s.setAttribute("src", u);
+    s.async = false;
+    s.onload = done;
+    s.onerror = done;
+    b.appendChild(s);
+  });
+})();
+  </script>
+</svg>

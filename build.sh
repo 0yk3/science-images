@@ -1,9 +1,10 @@
 #!/bin/sh
-# Build the jsDelivr XML proxy entry point and the .svg.gz mirrors.
+# Build the jsDelivr XML proxy tree and the .svg.gz mirrors.
 #
-# index.xml is generated from index.svgz with index.xsl. It is an uncompressed
-# SVG document, so jsDelivr serves it as application/xml and browsers render
-# the SVG root directly. No client-side XSLT is required.
+# Every .svgz route gets a matching .xml file generated with xml-build.xsl.
+# The .xml files are uncompressed SVG documents, so jsDelivr serves them as
+# application/xml and browsers render the SVG root directly. Navigation links
+# inside the generated XML point at other .xml routes.
 #
 # Usage: ./build.sh [--build|--check|--list|--help]
 set -eu
@@ -32,43 +33,57 @@ usage() {
 	cat <<'EOF'
 Usage: ./build.sh [--build|--check|--list]
 
-Build the jsDelivr XML proxy entry point and the .svg.gz mirrors.
+Build the jsDelivr XML proxy tree and the .svg.gz mirrors.
 
 Options:
-  --build   Generate index.xml from index.svgz and rebuild all .svg.gz mirrors
-            (default)
-  --check   Verify index.xml is current and every .svg.gz matches its .svgz
+  --build   Generate an .xml file for every .svgz and rebuild all .svg.gz
+            mirrors (default)
+  --check   Verify every .xml is current and every .svg.gz matches its .svgz
   --list    Print the generated paths
   -h, --help
             Show this help
 EOF
 }
 
-build_index() {
+build_xml() {
 	new_workdir
-	gzip -dc -- index.svgz > "$WORK/index.svg"
-	xsltproc --nonet index.xsl "$WORK/index.svg" > "$WORK/index.xml"
-	if [ -f index.xml ] && cmp -s -- "$WORK/index.xml" index.xml; then
-		echo "up to date index.xml"
-	else
-		mv -- "$WORK/index.xml" index.xml
-		echo "built index.xml"
-	fi
+	find . -type f -name '*.svgz' | sort > "$WORK/sources.txt"
+	while IFS= read -r src; do
+		dest=${src%.svgz}.xml
+		gzip -dc -- "$src" > "$WORK/source.svg"
+		xsltproc --nonet xml-build.xsl "$WORK/source.svg" > "$WORK/output.xml"
+		if [ -f "$dest" ] && cmp -s -- "$WORK/output.xml" "$dest"; then
+			echo "up to date $dest"
+		else
+			mv -- "$WORK/output.xml" "$dest"
+			echo "built $dest"
+		fi
+	done < "$WORK/sources.txt"
 	drop_workdir
 }
 
-check_index() {
+check_xml() {
 	new_workdir
-	gzip -dc -- index.svgz > "$WORK/index.svg"
-	xsltproc --nonet index.xsl "$WORK/index.svg" > "$WORK/index.xml"
-	if [ -f index.xml ] && cmp -s -- "$WORK/index.xml" index.xml; then
-		echo "ok index.xml"
-		drop_workdir
-		return 0
-	fi
-	echo "stale index.xml" >&2
+	find . -type f -name '*.svgz' | sort > "$WORK/sources.txt"
+	xml_fail=0
+	while IFS= read -r src; do
+		dest=${src%.svgz}.xml
+		if [ ! -f "$dest" ]; then
+			echo "missing $dest" >&2
+			xml_fail=1
+			continue
+		fi
+		gzip -dc -- "$src" > "$WORK/source.svg"
+		xsltproc --nonet xml-build.xsl "$WORK/source.svg" > "$WORK/output.xml"
+		if ! cmp -s -- "$WORK/output.xml" "$dest"; then
+			echo "stale $dest" >&2
+			xml_fail=1
+			continue
+		fi
+		echo "ok $dest"
+	done < "$WORK/sources.txt"
 	drop_workdir
-	return 1
+	[ "$xml_fail" -eq 0 ]
 }
 
 build_mirrors() {
@@ -112,8 +127,8 @@ check_mirrors() {
 }
 
 list_outputs() {
-	echo "index.xml"
-	find . -type f -name '*.svgz' -printf '%P\n' | sort | sed 's/\.svgz$/.svg.gz/'
+	find . -type f -name '*.svgz' -printf '%P\n' | sort | sed 's/\.svgz$/.xml/' | sort
+	find . -type f -name '*.svgz' -printf '%P\n' | sort | sed 's/\.svgz$/.svg.gz/' | sort
 }
 
 MODE=build
@@ -135,7 +150,7 @@ case $MODE in
 		;;
 	check)
 		fail=0
-		check_index || fail=1
+		check_xml || fail=1
 		check_mirrors || fail=1
 		if [ "$fail" -ne 0 ]; then
 			echo "build.sh: build is stale" >&2
@@ -143,7 +158,7 @@ case $MODE in
 		fi
 		;;
 	build)
-		build_index
+		build_xml
 		build_mirrors
 		echo "build.sh: build complete"
 		;;
