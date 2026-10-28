@@ -16,7 +16,7 @@
     be transformed in current Chrome.
   -->
   <xsl:template match="/">
-    <xsl:comment> Generated from the matching .svgz source by xml-build.xsl. Do not edit by hand. </xsl:comment>
+    <xsl:comment> Generated from the matching compressed SVG source by xml-build.xsl. Do not edit by hand. </xsl:comment>
     <xsl:apply-templates select="/*"/>
   </xsl:template>
 
