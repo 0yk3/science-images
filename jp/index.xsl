@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated from the matching compressed SVG source by xml-build.xsl. Do not edit by hand. --><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position: fixed; top: 0; left: 0;">
+  <style>.astro-route-announcer{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}#mobilenav,#mobilenavwrapper{transition-duration:.6s;transform:translate(100%)}.roboto{font-family:var(--font-family),Roboto,sans-serif;font-weight:200;font-style:normal}::-webkit-scrollbar{width:.5rem;height:.5rem}::-webkit-scrollbar-track{background:var(--navbar-color)}::-webkit-scrollbar-thumb{background:var(--navbar-text-color)}::-webkit-scrollbar-thumb:hover{background:var(--navbar-link-color)}::-moz-scrollbar{width:.5rem;height:.5rem}::-moz-scrollbar-track{background:var(--navbar-color)}::-moz-scrollbar-thumb{background:var(--navbar-text-color)}::-moz-scrollbar-thumb:hover{background:var(--navbar-link-color)}::-ms-scrollbar{width:.5rem;height:.5rem}::-ms-scrollbar-track{background:var(--navbar-color)}::-ms-scrollbar-thumb{background:var(--navbar-text-color)}::-ms-scrollbar-thumb:hover{background:var(--navbar-link-color)}::-o-scrollbar{width:.5rem;height:.5rem}::-o-scrollbar-track{background:var(--navbar-color)}::-o-scrollbar-thumb{background:var(--navbar-text-color)}::-o-scrollbar-thumb:hover{background:var(--navbar-link-color)}@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+</style>
+  <foreignObject x="0" y="0" width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml" class="h-full bg-primary">
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="../ob-fonts.css" id="obfuscated-font-stylesheet" data-astro-transition-persist="astro-qje6ewha-2"/>
+      <title>Home</title>
+      <meta charset="UTF-8"/>
+      <link rel="canonical" href="http://localhost:4321/jp/"/>
+      <meta name="robots" content="index, follow"/>
+      <meta property="og:title" content=""/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:image" content=""/>
+      <meta property="og:url" content="http://localhost:4321/jp/"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image:alt" content="false logo"/>
+      <link rel="icon" type="image/svg+xml" href="../favicon.svg" id="favicon"/>
+      <link/>
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" as="style" crossorigin="anonymous"/>
+      <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="generator" content="Astro v5.17.3"/>
+      <link rel="stylesheet" href="../nebula.css" id="stylesheet" data-astro-transition-persist="astro-2ufxhwun-3"/>
+      <meta name="astro-view-transitions-enabled" content="true"/>
+      <meta name="astro-view-transitions-fallback" content="animate"/>
+      <link rel="stylesheet" href="../_astro/index.CGXnpZuh.css"/>
+      <div id="navbar" class="flex h-16 flex-row items-center justify-end border-b-2 border-border-color bg-navbar-color px-4 z-30 relative"> <div class="w-1/8">  <div class="relative flex-row hidden lg:flex"> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:house-bold">   <symbol id="ai:ph:house-bold" viewBox="0 0 256 256"><path fill="currentColor" d="m222.14 105.85l-80-80a20 20 0 0 0-28.28 0l-80 80A19.86 19.86 0 0 0 28 120v96a12 12 0 0 0 12 12h64a12 12 0 0 0 12-12v-52h24v52a12 12 0 0 0 12 12h64a12 12 0 0 0 12-12v-96a19.86 19.86 0 0 0-5.86-14.15M204 204h-40v-52a12 12 0 0 0-12-12h-48a12 12 0 0 0-12 12v52H52v-82.35l76-76l76 76Z"/></symbol><use href="#ai:ph:house-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ホーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./games/index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:cube">   <symbol id="ai:ph:cube" viewBox="0 0 256 256"><path fill="currentColor" d="m223.68 66.15l-88-48.15a15.88 15.88 0 0 0-15.36 0l-88 48.17a16 16 0 0 0-8.32 14v95.64a16 16 0 0 0 8.32 14l88 48.17a15.88 15.88 0 0 0 15.36 0l88-48.17a16 16 0 0 0 8.32-14V80.18a16 16 0 0 0-8.32-14.03M128 32l80.34 44L128 120L47.66 76ZM40 90l80 43.78v85.79l-80-43.75Zm96 129.57v-85.75L216 90v85.78Z"/></symbol><use href="#ai:ph:cube"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ゲーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./settings/appearance/index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:wrench-fill">   <symbol id="ai:ph:wrench-fill" viewBox="0 0 256 256"><path fill="currentColor" d="M232 96a72 72 0 0 1-100.94 66L79 222.22c-.12.14-.26.29-.39.42a32 32 0 0 1-45.26-45.26c.14-.13.28-.27.43-.39L94 124.94a72.07 72.07 0 0 1 83.54-98.78a8 8 0 0 1 3.93 13.19L144 80l5.66 26.35L176 112l40.65-37.52a8 8 0 0 1 13.19 3.93A72.6 72.6 0 0 1 232 96"/></symbol><use href="#ai:ph:wrench-fill"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> 設定 </span> </a>  <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="https://discord.gg/g6aHY2Ufhx">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:link-bold">   <symbol id="ai:ph:link-bold" viewBox="0 0 256 256"><path fill="currentColor" d="M117.18 188.74a12 12 0 0 1 0 17l-5.12 5.12A58.26 58.26 0 0 1 70.6 228a58.62 58.62 0 0 1-41.46-100.08l34.75-34.75a58.64 58.64 0 0 1 98.56 28.11a12 12 0 1 1-23.37 5.44a34.65 34.65 0 0 0-58.22-16.58l-34.75 34.75A34.62 34.62 0 0 0 70.57 204a34.4 34.4 0 0 0 24.49-10.14l5.11-5.12a12 12 0 0 1 17.01 0M226.83 45.17a58.65 58.65 0 0 0-82.93 0l-5.11 5.11a12 12 0 0 0 17 17l5.12-5.12a34.63 34.63 0 1 1 49 49l-34.81 34.7A34.4 34.4 0 0 1 150.61 156a34.63 34.63 0 0 1-33.69-26.72a12 12 0 0 0-23.38 5.44A58.64 58.64 0 0 0 150.56 180h.05a58.28 58.28 0 0 0 41.47-17.17l34.75-34.75a58.62 58.62 0 0 0 0-82.91"/></symbol><use href="#ai:ph:link-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> リンク一覧 </span> </a> </div>  <div class="flex lg:hidden cursor-pointer" id="mobileNavTrigger"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-9 w-9 text-text-color" id="hamburger_menu" data-icon="ph:text-align-justify-bold">   <symbol id="ai:ph:text-align-justify-bold" viewBox="0 0 256 256"><path fill="currentColor" d="M28 64a12 12 0 0 1 12-12h176a12 12 0 0 1 0 24H40a12 12 0 0 1-12-12m188 28H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24m0 40H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24m0 40H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24"/></symbol><use href="#ai:ph:text-align-justify-bold"/>  </svg> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="h-9 w-9 text-text-color hidden" id="right_caret" data-icon="ph:caret-right-bold">   <symbol id="ai:ph:caret-right-bold" viewBox="0 0 256 256"><path fill="currentColor" d="m184.49 136.49l-80 80a12 12 0 0 1-17-17L159 128L87.51 56.49a12 12 0 1 1 17-17l80 80a12 12 0 0 1-.02 17"/></symbol><use href="#ai:ph:caret-right-bold"/>  </svg> </div> </div> </div> <div class="h-full z-10 w-full fixed">  <div class="flex flex-wrap mt-16 justify-center content-center w-full bg-primary fixed inset-0 h-[calc(100%-4rem)] z-0 flex-col items-center"> <div class="w-full flex flex-col justify-center items-center content-center h-2/4"> <div class="flex flex-row items-center mb-8"> <div class="h-32 w-32 fill-navbar-text-color"> <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 400 400" width="400" height="400" style="width: 100%; height: 100%;"><title>nebula</title><g id="svgg"><path id="path0" fill-rule="evenodd" d="m213.6 84c1 0.3 3.4 0.7 5.1 1 1.8 0.2 4.1 0.7 5.2 1 13.2 4.1 20.3 6.8 24.5 9.1 0.6 0.3 2.3 1.2 3.8 2 2.8 1.4 13.1 8 14.4 9.2 0.5 0.3 2.3 1.9 4.2 3.5 6.7 5.5 15.5 14.9 19.2 20.4 1 1.4 2 2.7 2.2 2.8 0.3 0.1 0.5 0.5 0.5 0.8 0 0.3 1.2 2.2 2.5 4.3 2.3 3.4 7.8 14.3 9.8 19.3 0.8 2.1 0.9 2.2 10 4.9 5.6 1.6 11.1 3.4 11.7 3.8 0.3 0.2 2.4 1.1 4.7 1.9 11.1 4.1 23 12.5 27.3 19.4 5.5 8.7 3.6 20.5-4.5 28.5-3.1 3-7.5 6.4-8.4 6.4-0.3 0-0.7 0.2-0.8 0.5-1.1 2.3-23.3 11.2-35.9 14.3-3.2 0.9-3.5 1.2-5.7 6.8-7.5 19-25.5 40.6-42.3 51.1-1.6 1-3.1 2-3.3 2.2-0.1 0.2-0.9 0.7-1.7 1.2-0.8 0.4-2.2 1.2-2.9 1.6-0.8 0.4-1.6 1-1.8 1.1-0.5 0.5-4.1 2.2-8.1 3.9-1.8 0.8-3.8 1.6-4.5 2-0.7 0.3-3.1 1.1-5.2 1.8-8.3 2.6-9.8 3-21 4.9-6.4 1.1-25.3 1.3-30.5 0.3-1.9-0.3-5.8-1.1-8.6-1.6-6.8-1.3-12.7-3-20-5.7-3.3-1.2-18-8.8-19.7-10.1-0.9-0.7-4.1-3.1-7.1-5.2-5.7-4.1-17.9-15.9-20.7-20-0.9-1.2-2-2.7-2.5-3.2-3.2-3.3-13.7-21.7-13.7-24.1 0-0.6-0.2-1.2-0.6-1.4-0.3-0.2-0.8-1.2-1-2.3-0.4-1.9-1.7-2.7-6.5-3.8-23.2-5.6-43.1-17.2-48.6-28.5-7.1-14.4 4.5-31.3 27.3-39.7 1.8-0.7 4.1-1.6 5.2-2 3.7-1.5 8-2.9 19.5-6.2 1.6-0.5 2.8-1.2 2.8-1.7 0-2.4 9.8-21.6 13.1-25.7 0.2-0.4 1.4-1.8 2.5-3.2 13.8-18.1 30.2-30.6 50.6-38.8 4.3-1.7 6-2.3 14.3-4.5 5.5-1.6 11.2-2.4 18.4-2.9 7.9-0.5 24-0.2 26.8 0.6zm-29.7 17.3c-0.2 0.1-7.3 1.7-12.9 2.7-1.7 0.4-4.3 1.2-5.8 1.9-1.5 0.6-3.9 1.5-5.5 2-1.5 0.4-3.3 1.3-4 2-0.7 0.7-1.7 1.2-2.3 1.2-1.2 0-9.5 4.5-9.8 5.3-0.2 0.3-0.5 0.6-0.9 0.6-1.9 0-19.6 16-23.8 21.6-9.3 12.2-16.1 27.4-19.2 42.7-2 10.1-1.1 37.5 1.4 41.4 0 0.1 3.7 0.9 8.1 1.8 9.5 1.9 12.8 2.4 34.6 4.9 38.5 4.5 107.9 2.2 138.3-4.5 1.4-0.3 4.1-0.9 6.1-1.3 4.2-0.8 3.4 0.2 4.9-7.1 1.6-8.3 1.7-27 0.1-34.6-1.5-7.1-3.2-13.4-3.7-14.2-0.3-0.4-0.7-1.5-0.9-2.6-2.8-12.1-19.2-34.1-33-44.3-2.9-2.1-5.5-4-5.8-4.3-2.8-2.2-4.9-3.1-7.2-3.1-2.1 0-2.6-0.2-2.7-1.3-0.2-1.5-5.7-4.5-6.3-3.5-0.7 1.1-2.4 0.6-2.7-0.7-0.4-1.3-1.2-1.6-5.8-2.1-1.6-0.2-4-0.9-5.5-1.6-3.9-1.8-5.3-2.2-10.2-2.6-4.6-0.4-25.2-0.7-25.5-0.3zm74.3 42.2c7.4 9.8 4.8 23.5-4.6 24.9-6.9 1-20.9-5.8-21-10.2 0-0.2-0.3-0.8-0.8-1.3-6.4-6.8-5-20.8 2.4-24.1 6.7-2.9 17.2 1.8 24 10.7zm-176.4 36.4c-0.1-0.1-4.6 1.1-5.9 1.6-0.7 0.3-3 1.2-5.1 2-9.9 3.8-15.1 6.8-19.6 11.5-3.4 3.5-3.3 4.5 0.5 8.7 1 1 11.3 7.6 12 7.6 0.2 0 1.7 0.6 3.4 1.3 1.6 0.8 3.6 1.6 4.3 1.9 1.8 0.8 9.3 3.3 9.9 3.3 0.3 0 0.3-2 0-4.4-0.6-5.6-0.6-24.5 0.1-29.6 0.3-2.1 0.5-3.9 0.4-3.9zm229.3-0.3c-0.2 0 0 1 0.2 2.1 0.6 2.8 0.6 31.3 0 34-0.5 2.2-0.4 2.2 1.3 1.8 3.1-0.7 12.9-4.5 18.3-7 8.5-4 14.3-10.1 12.6-13.3-1.1-2.1-6.7-7.2-7.9-7.2-0.4 0-0.9-0.2-1-0.5-0.4-1.1-11.8-6.1-19.2-8.5-2.3-0.7-4.2-1.4-4.3-1.4zm-199.4 63.4l-3.1-0.4 1.8 3.2c0.9 1.8 1.9 3.4 2.2 3.5 0.3 0.1 0.5 0.6 0.5 1.1 0 0.4 0.6 1.5 1.3 2.3 0.7 0.9 1.5 1.9 1.8 2.2 0.3 0.4 0.8 1.2 1.1 1.7 6.2 10.7 35.6 33.5 43.3 33.5 0.2 0 1.3 0.4 2.5 0.9 2.5 1.2 10.6 3.4 15.3 4.2 9.5 1.8 11.6 2.1 17.4 2.1 6.6 0 16.4-1.3 22.9-3 2.2-0.5 5.2-1.3 6.8-1.7 1.6-0.3 3.2-0.9 3.5-1.2 0.4-0.3 1.1-0.6 1.6-0.6 2.3 0 22-10.6 24-12.9 0.2-0.2 2.2-1.9 4.5-3.7 5.7-4.5 11.8-11 17.1-18.4 1.6-2.3 3.2-4.5 3.6-4.9 0.4-0.4 0.7-1 0.7-1.2 0-0.2 0.8-1.9 1.9-3.6 1.1-1.7 1.9-3.2 1.9-3.4 0-0.2-3.8 0.4-11 1.6-31.7 5.4-85.1 6.7-126.9 3.1-9.6-0.8-23.1-2.3-27.8-3.2-2.2-0.4-5.3-0.9-6.9-1.2z" class="s0"/></g></svg> </div> <h1 class="font-roboto whitespace-nowrap text-navbar-text-color sm:visible text-5xl sm:text-7xl roboto">
+Nebula
+</h1> </div> <input id="nebula-input" class="transition-all duration-300 font-roboto h-14 rounded-t-2xl w-10/12 rounded-b-2xl border border-input-border-color bg-input p-2 text-center text-xl text-input-text placeholder:text-input-text roboto focus:outline-none md:w-3/12" placeholder="Search the web freely"/> <div id="omnibox" class="hidden p-1 transition-all duration-300 flex flex-col w-10/12 md:w-3/12 h-full flex-grow bg-input text-center items-center rounded-b-2xl border-input-border-color border-b border-r border-l"/> </div> <iframe id="neb-iframe" class="hidden z-100 w-full h-full absolute top-0 bottom-0 bg-primary" src="../loading/index.html"/> <div id="version" class="flex flex-row w-full absolute bottom-4 pr-4 pl-4 text-text-color h-6 justify-between items-center font-roboto"> <p>Version: 10.0.0</p> <div class="hidden md:flex gap-2 flex-grow ml-16 justify-center items-center"> <p> Having problems? </p> <button id="reset" class="underline underline-offset-4 hover:decoration-input-border-color active:decoration-input-text">
+Click here to reset your instance
+</button> </div> <p>© Nebula Services 2026</p> </div> </div>  </div> <div id="mobilenavwrapper" class="w-full fixed inset-0 h-[calc(100%-4rem)] z-20"> <div class="h-full mt-16 flex w-full flex-col justify-evenly bg-navbar-color m-auto" id="mobilenav"> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:house-bold">   <use href="#ai:ph:house-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ホーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./games/index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:cube">   <use href="#ai:ph:cube"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ゲーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./settings/appearance/index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:wrench-fill">   <use href="#ai:ph:wrench-fill"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> 設定 </span> </a>  <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:link-bold">   <use href="#ai:ph:link-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> リンク一覧 </span> </a> </div>   </div> <video autoplay="" muted="" loop="" id="nebulaVideo" class="absolute z-0 h-[calc(100%-4rem)] w-full object-cover" data-astro-transition-persist="astro-jff22cma-4"> <source type="video/mp4" id="videosource" data-astro-transition-persist="astro-xx36xqzs-5"/> </video> <img src="" class="absolute z-0 h-[calc(100%-4rem)] w-full object-cover hidden" id="nebulaImage" data-astro-transition-persist="astro-wukm6pk7-6"/>    
+    </body>
+  </foreignObject>
+  <script>
+(function() {
+  var ns = "http://www.w3.org/1999/xhtml";
+  var body = document.querySelector("body");
+  var head = document.createElementNS(ns, "head");
+  body.prepend(head);
+  Object.defineProperty(document, "head", { get: function() { return head; }, configurable: true });
+  Object.defineProperty(document, "body", { get: function() { return body; }, configurable: true });
+  document.createElement = function(tag, opts) {
+    var node = document.createElementNS(ns, tag, opts);
+    Object.defineProperty(node, "tagName", { get: function() { return node.localName.toUpperCase(); }, configurable: true });
+    return node;
+  };
+  // HTML vendors mount overlays on documentElement, which is SVG here.
+  var root = document.documentElement;
+  if (root &amp;&amp; root.namespaceURI === "http://www.w3.org/2000/svg") {
+    var append = root.appendChild.bind(root);
+    var routed = new WeakSet();
+    var virtualTail = false;
+    root.appendChild = function(node) {
+      virtualTail = node.namespaceURI === ns;
+      if (!virtualTail) return append(node);
+      routed.add(node);
+      return body.appendChild(node);
+    };
+    var proto = root, last;
+    while (proto &amp;&amp; !last) { last = Object.getOwnPropertyDescriptor(proto, "lastElementChild"); proto = Object.getPrototypeOf(proto); }
+    if (last &amp;&amp; last.get) Object.defineProperty(root, "lastElementChild", { configurable: true, get: function() {
+      var tail = body.lastElementChild;
+      return virtualTail &amp;&amp; tail &amp;&amp; routed.has(tail) ? tail : last.get.call(root);
+    } });
+  }
+  // Parse writes as HTML (XML innerHTML rejects HTML entities/void tags).
+  document.write = function() {
+    var parsed = new DOMParser().parseFromString(Array.prototype.join.call(arguments, ""), "text/html");
+    function mount(source, target) {
+      Array.from(source.childNodes).forEach(function(node) {
+        var copy = document.importNode(node, true);
+        // Imported parser scripts are inert; recreate them in this realm.
+        var scripts = copy.nodeType === 1 ? (copy.localName === "script" ? [copy] : Array.from(copy.querySelectorAll("script"))) : [];
+        scripts.forEach(function(old) {
+          var active = document.createElement("script"); active.async = false;
+          Array.from(old.attributes).forEach(function(attr) { active.setAttribute(attr.name, attr.value); });
+          active.textContent = old.textContent;
+          if (old === copy) copy = active; else old.replaceWith(active);
+        });
+        target.appendChild(copy);
+      });
+    }
+    mount(parsed.head, head); mount(parsed.body, body);
+  };
+  document.writeln = function() { document.write(Array.prototype.join.call(arguments, "") + "\n"); };
+})();;
+
+self.__ddxBase=new URL("../",location.href).href;
+(function() {
+  var base = new URL(self.__ddxBase);
+  var entry = "index.xsl";
+  function svgTarget(target) {
+    var url = new URL(target, location.href);
+    if (url.origin !== base.origin) return null;
+    var path = url.pathname.indexOf(base.pathname) === 0 ? url.pathname.slice(base.pathname.length) : url.pathname.slice(1);
+    path = path.replace(/\/index\.(?:html|svg|xsl)$/, '').replace(/\/$/, '');
+    if (path &amp;&amp; !/^(?:en_US|jp)(?:\/[^.]*)?$/.test(path)) return null;
+    var result = new URL((path ? path + '/' : '') + entry, base);
+    result.search = url.search; result.hash = url.hash;
+    return result;
+  }
+  document.addEventListener('astro:before-preparation', function(event) {
+    if (!event.to || event.formData) return;
+    var target = svgTarget(event.to.href);
+    if (!target) return;
+    // Astro's cancellation fallback uses its original URL object, not a
+    // replacement event.to. Mutate in place before requesting a full load.
+    event.to.href = target.href;
+    event.preventDefault();
+  });
+  document.addEventListener('click', function(event) {
+    var anchor = event.target.closest &amp;&amp; event.target.closest('a[href]');
+    if (!anchor || anchor.hasAttribute('download')) return;
+    var href = anchor.getAttribute('href');
+    if (!href || href.charAt(0) === '#') return;
+    var target = svgTarget(href);
+    if (target) anchor.setAttribute('href', target.href);
+  }, true);
+})();;
+
+window.FONT_OBFUSCATION_CONFIG = {
+        enabled: true,
+        defaultFont: "roboto",
+        excludeInputs: false,
+        obfuscateTitle: false,
+        obfuscatePlaceholders: false,
+      };;
+
+window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5CFVV589W6');;
+
+(function() {
+  var ns = "http://www.w3.org/1999/xhtml";
+  var d = document;
+  var b = d.querySelector("body");
+
+  function loadModules() {
+    var mods = [{"src":"../_astro/Loader.astro_astro_type_script_index_0_lang.DSGJrlg_.js","co":false},{"src":"../_astro/ClientRouter.astro_astro_type_script_index_0_lang.V7p3ytpn.js","co":false},{"src":"../_astro/MobileNavigation.astro_astro_type_script_index_0_lang.VqBd4qe4.js","co":false},{"src":"../_astro/index.astro_astro_type_script_index_0_lang.z4pnJE_7.js","co":false}];
+    var remaining = mods.length;
+    mods.forEach(function(m) {
+      var s = d.createElementNS(ns, "script");
+      s.setAttribute("type", "module");
+      s.setAttribute("src", m.src);
+      if (m.co) s.setAttribute("crossorigin", "");
+      s.onload = s.onerror = function() { s.onload = s.onerror = null; if (--remaining === 0) d.dispatchEvent(new Event("DOMContentLoaded")); };
+      b.appendChild(s);
+    });
+  }
+
+  // Load non-module deps first, then modules after all finish
+  var srcs = ["https://www.googletagmanager.com/gtag/js?id=G-5CFVV589W6","../ob-fonts.js"];
+  var pending = srcs.length;
+  function done() { if (--pending === 0) loadModules(); }
+  srcs.forEach(function(u) {
+    var s = d.createElementNS(ns, "script");
+    s.setAttribute("src", u);
+    s.async = false;
+    s.onload = done;
+    s.onerror = done;
+    b.appendChild(s);
+  });
+})();
+  </script>
+</svg>

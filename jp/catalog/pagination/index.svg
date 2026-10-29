@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated from the matching compressed SVG source by xml-build.xsl. Do not edit by hand. --><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position: fixed; top: 0; left: 0;">
+  <style/>
+  <foreignObject x="0" y="0" width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <link rel="stylesheet" href="../../../_astro/index.CGXnpZuh.css"/>
+      <input class="w-10 h-8 bg-navbar-color items-center text-center content-center text-text-color rounded-md [appearance:textfield] [&amp;::-webkit-outer-spin-button]:appearance-none [&amp;::-webkit-inner-spin-button]:appearance-none" type="number" id="pageinationInput" placeholder="..."/>
+      
+    </body>
+  </foreignObject>
+  <script>
+(function() {
+  var ns = "http://www.w3.org/1999/xhtml";
+  var body = document.querySelector("body");
+  var head = document.createElementNS(ns, "head");
+  body.prepend(head);
+  Object.defineProperty(document, "head", { get: function() { return head; }, configurable: true });
+  Object.defineProperty(document, "body", { get: function() { return body; }, configurable: true });
+  document.createElement = function(tag, opts) {
+    var node = document.createElementNS(ns, tag, opts);
+    Object.defineProperty(node, "tagName", { get: function() { return node.localName.toUpperCase(); }, configurable: true });
+    return node;
+  };
+  // HTML vendors mount overlays on documentElement, which is SVG here.
+  var root = document.documentElement;
+  if (root &amp;&amp; root.namespaceURI === "http://www.w3.org/2000/svg") {
+    var append = root.appendChild.bind(root);
+    var routed = new WeakSet();
+    var virtualTail = false;
+    root.appendChild = function(node) {
+      virtualTail = node.namespaceURI === ns;
+      if (!virtualTail) return append(node);
+      routed.add(node);
+      return body.appendChild(node);
+    };
+    var proto = root, last;
+    while (proto &amp;&amp; !last) { last = Object.getOwnPropertyDescriptor(proto, "lastElementChild"); proto = Object.getPrototypeOf(proto); }
+    if (last &amp;&amp; last.get) Object.defineProperty(root, "lastElementChild", { configurable: true, get: function() {
+      var tail = body.lastElementChild;
+      return virtualTail &amp;&amp; tail &amp;&amp; routed.has(tail) ? tail : last.get.call(root);
+    } });
+  }
+  // Parse writes as HTML (XML innerHTML rejects HTML entities/void tags).
+  document.write = function() {
+    var parsed = new DOMParser().parseFromString(Array.prototype.join.call(arguments, ""), "text/html");
+    function mount(source, target) {
+      Array.from(source.childNodes).forEach(function(node) {
+        var copy = document.importNode(node, true);
+        // Imported parser scripts are inert; recreate them in this realm.
+        var scripts = copy.nodeType === 1 ? (copy.localName === "script" ? [copy] : Array.from(copy.querySelectorAll("script"))) : [];
+        scripts.forEach(function(old) {
+          var active = document.createElement("script"); active.async = false;
+          Array.from(old.attributes).forEach(function(attr) { active.setAttribute(attr.name, attr.value); });
+          active.textContent = old.textContent;
+          if (old === copy) copy = active; else old.replaceWith(active);
+        });
+        target.appendChild(copy);
+      });
+    }
+    mount(parsed.head, head); mount(parsed.body, body);
+  };
+  document.writeln = function() { document.write(Array.prototype.join.call(arguments, "") + "\n"); };
+})();;
+
+self.__ddxBase=new URL("../../../",location.href).href;
+(function() {
+  var base = new URL(self.__ddxBase);
+  var entry = "index.svg";
+  function svgTarget(target) {
+    var url = new URL(target, location.href);
+    if (url.origin !== base.origin) return null;
+    var path = url.pathname.indexOf(base.pathname) === 0 ? url.pathname.slice(base.pathname.length) : url.pathname.slice(1);
+    path = path.replace(/\/index\.(?:html|svg|svg)$/, '').replace(/\/$/, '');
+    if (path &amp;&amp; !/^(?:en_US|jp)(?:\/[^.]*)?$/.test(path)) return null;
+    var result = new URL((path ? path + '/' : '') + entry, base);
+    result.search = url.search; result.hash = url.hash;
+    return result;
+  }
+  document.addEventListener('astro:before-preparation', function(event) {
+    if (!event.to || event.formData) return;
+    var target = svgTarget(event.to.href);
+    if (!target) return;
+    // Astro's cancellation fallback uses its original URL object, not a
+    // replacement event.to. Mutate in place before requesting a full load.
+    event.to.href = target.href;
+    event.preventDefault();
+  });
+  document.addEventListener('click', function(event) {
+    var anchor = event.target.closest &amp;&amp; event.target.closest('a[href]');
+    if (!anchor || anchor.hasAttribute('download')) return;
+    var href = anchor.getAttribute('href');
+    if (!href || href.charAt(0) === '#') return;
+    var target = svgTarget(href);
+    if (target) anchor.setAttribute('href', target.href);
+  }, true);
+})();;
+
+(function() {
+  var ns = "http://www.w3.org/1999/xhtml";
+  var d = document;
+  var b = d.querySelector("body");
+
+  function loadModules() {
+    var mods = [{"src":"../../../_astro/pagination.astro_astro_type_script_index_0_lang.CS6ThkQi.js","co":false}];
+    var remaining = mods.length;
+    mods.forEach(function(m) {
+      var s = d.createElementNS(ns, "script");
+      s.setAttribute("type", "module");
+      s.setAttribute("src", m.src);
+      if (m.co) s.setAttribute("crossorigin", "");
+      s.onload = s.onerror = function() { s.onload = s.onerror = null; if (--remaining === 0) d.dispatchEvent(new Event("DOMContentLoaded")); };
+      b.appendChild(s);
+    });
+  }
+
+  loadModules();
+})();
+  </script>
+</svg>

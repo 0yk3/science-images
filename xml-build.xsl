@@ -2,14 +2,21 @@
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="no" indent="no"/>
+  <xsl:param name="target" select="'xml'"/>
 
   <!--
     Build-time transform for every .svgz route.
 
-    The uncompressed SVG app is copied to the matching .xml file, and every
-    "svgz" reference (links, entry name, navigation regex) is rewritten to
-    "xml". The resulting XML is served by jsDelivr as application/xml and
-    renders directly in Chrome.
+    The uncompressed SVG app is copied to the matching .xml, .svg, .xhtml, or
+    .xsl file, and every "svgz" reference (links, entry name, navigation regex)
+    is rewritten to the requested target extension. Select the target by
+    passing the "target" parameter, for example: target=svg
+
+    The default is "xml". The .xml and .svg variants are served as
+    application/xml and image/svg+xml by jsDelivr and statically.io. The .xhtml
+    variant is served as application/xhtml+xml by jsDelivr. The .xsl variant is
+    only an alternate extension served as application/xml by jsDelivr; it is
+    not an XSLT stylesheet.
 
     This is deliberately build-time only. Chrome 155 removed XSLTProcessor,
     so an XML file with an <?xml-stylesheet?> processing instruction will not
@@ -56,7 +63,7 @@
     <xsl:choose>
       <xsl:when test="contains($text, 'svgz')">
         <xsl:value-of select="substring-before($text, 'svgz')"/>
-        <xsl:text>xml</xsl:text>
+        <xsl:value-of select="$target"/>
         <xsl:call-template name="replace-svgz">
           <xsl:with-param name="text" select="substring-after($text, 'svgz')"/>
         </xsl:call-template>
