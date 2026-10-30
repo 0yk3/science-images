@@ -31,6 +31,7 @@ Classic Nebula
 </div> </div> </div> <div class="w-0 h-0 visibility-none hidden"> <asset-loader/> </div>   </div> <div class="text-3xl font-roboto font-bold text-text-color"/> </div>  </div> </div>  </div> </div> </div>  </div> <div id="mobilenavwrapper" class="w-full fixed inset-0 h-[calc(100%-4rem)] z-20"> <div class="h-full mt-16 flex w-full flex-col justify-evenly bg-navbar-color m-auto" id="mobilenav"> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../../index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:house-bold">   <use href="#ai:ph:house-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ホーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="../../games/index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:cube">   <use href="#ai:ph:cube"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> ゲーム </span> </a> <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor" href="./index.xsl">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:wrench-fill">   <use href="#ai:ph:wrench-fill"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> 設定 </span> </a>  <a class="group flex w-full flex-row items-center justify-center border-t-2 border-solid border-navbar-text-color p-4 lg:border-none h-1/3 lg:h-fit" id="header_anchor">  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="h-6 w-6 text-text-color transition duration-500 group-hover:text-text-hover-color md:h-6 md:w-6" data-icon="ph:link-bold">   <use href="#ai:ph:link-bold"/>  </svg>  <span class="font-roboto pl-2 text-center text-3xl font-bold text-text-color roboto transition duration-500 group-hover:text-text-hover-color lg:text-xl text-nowrap"> リンク一覧 </span> </a> </div>   </div> <video autoplay="" muted="" loop="" id="nebulaVideo" class="absolute z-0 h-[calc(100%-4rem)] w-full object-cover" data-astro-transition-persist="astro-jff22cma-4"> <source type="video/mp4" id="videosource" data-astro-transition-persist="astro-xx36xqzs-5"/> </video> <img src="" class="absolute z-0 h-[calc(100%-4rem)] w-full object-cover hidden" id="nebulaImage" data-astro-transition-persist="astro-wukm6pk7-6"/>
     </body>
   </foreignObject>
+  <rect id="blank-screen" x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
   <script>
 (function() {
   var ns = "http://www.w3.org/1999/xhtml";
@@ -162,6 +163,15 @@ window.dataLayer = window.dataLayer || [];
     s.onerror = done;
     b.appendChild(s);
   });
+})();
+  </script>
+  <script>
+(function () {
+  var blank = document.getElementById("blank-screen");
+  if (!blank) return;
+  setTimeout(function () {
+    if (blank.parentNode) blank.parentNode.removeChild(blank);
+  }, 5000);
 })();
   </script>
 </svg>

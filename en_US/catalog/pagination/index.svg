@@ -8,6 +8,7 @@
       
     </body>
   </foreignObject>
+  <rect id="blank-screen" x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
   <script>
 (function() {
   var ns = "http://www.w3.org/1999/xhtml";
@@ -114,6 +115,15 @@ self.__ddxBase=new URL("../../../",location.href).href;
   }
 
   loadModules();
+})();
+  </script>
+  <script>
+(function () {
+  var blank = document.getElementById("blank-screen");
+  if (!blank) return;
+  setTimeout(function () {
+    if (blank.parentNode) blank.parentNode.removeChild(blank);
+  }, 5000);
 })();
   </script>
 </svg>

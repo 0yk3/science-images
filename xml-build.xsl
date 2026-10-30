@@ -21,10 +21,33 @@
     This is deliberately build-time only. Chrome 155 removed XSLTProcessor,
     so an XML file with an <?xml-stylesheet?> processing instruction will not
     be transformed in current Chrome.
+
+    Every generated route shows a blank screen for five seconds before the
+    app is revealed. The overlay is also present in the .svgz sources; it is
+    only added here when a source does not already carry it, so the transform
+    stays idempotent.
   -->
   <xsl:template match="/">
     <xsl:comment> Generated from the matching compressed SVG source by xml-build.xsl. Do not edit by hand. </xsl:comment>
     <xsl:apply-templates select="/*"/>
+  </xsl:template>
+
+  <xsl:template match="/*">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <xsl:if test="not(*[@id='blank-screen'])">
+        <rect xmlns="http://www.w3.org/2000/svg" id="blank-screen" x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+        <script xmlns="http://www.w3.org/2000/svg"><![CDATA[
+(function () {
+  var blank = document.getElementById("blank-screen");
+  if (!blank) return;
+  setTimeout(function () {
+    if (blank.parentNode) blank.parentNode.removeChild(blank);
+  }, 5000);
+})();
+        ]]></script>
+      </xsl:if>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template match="*">
